@@ -12,9 +12,13 @@ namespace VaR.XSWY3L
 {
     public partial class Form1 : Form
     {
+        PortfolioEntities context = new PortfolioEntities();
+        List<Tick> Ticks;
         public Form1()
         {
             InitializeComponent();
+            Ticks = context.Ticks.ToList();
+            dataGridView1.DataSource = Ticks;
         }
     }
 }
