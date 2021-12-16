@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mikroszimuláció.Entities.NewFolder1
+namespace Mikroszimuláció.Entities
 {
     class Person
     {
